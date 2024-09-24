@@ -24,7 +24,7 @@ jobs:
 
              - name: Run Auto Semantic Version
                id: sematic-version-action
-               uses: pedroalejandropt/auto-semantic-version@v1
+               uses: pedroalejandropt/auto-semantic-version@v2
                with:
                  ## Set a custom flag for release versions
                  release: release
